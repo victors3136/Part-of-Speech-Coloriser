@@ -1,0 +1,37 @@
+body {
+  font-family: "Courier New", sans-serif;
+  margin: 50px;
+}
+
+#main {
+  position: relative;
+  width: 100%;
+}
+
+.common-box{
+  width: 75rem;
+  position: absolute;
+  top: 10rem;
+  left: 5rem;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 5rem;
+  font-size: 1rem;
+  white-space: pre-wrap;
+  min-height: 10rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#output-box {
+  pointer-events: none;
+}
+
+#input-box {
+  border: 1px solid #ccc;
+  outline: none;
+  background: transparent;
+  color: transparent;
+  caret-color: black;
+  z-index: 1;
+}
